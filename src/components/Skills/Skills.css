@@ -13,5 +13,5 @@
 .skills__skill-cards {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 80px;
 }
