@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin-top: 50px;
+}
+
+.about__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.about__text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.about__text_first {
+  margin-bottom: 30px;
+}
+
+.about__img {
+  max-width: 300px;
+  border-radius: 200px;
+  border: 4px solid rgb(85, 0, 0);
+}
+
+.about__img-subtitle {
+  margin: 0;
+  margin-top: 5px;
+  opacity: 60%;
+}

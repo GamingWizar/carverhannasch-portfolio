@@ -20,6 +20,10 @@
 }
 
 .page__section {
+  border-bottom: solid 1px rgba(225, 0, 0, 0.2);
+}
+
+.page__section-content {
   max-width: 1880px;
   margin: 0 auto;
 }
