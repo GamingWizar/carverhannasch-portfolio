@@ -1,0 +1,64 @@
+.project-card {
+  border: 1px solid rgb(160, 100, 100);
+  background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(70, 0, 0));
+  width: 750px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.project-card__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.project-card__img {
+  width: 700px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card__description {
+  margin: 0;
+  font-size: 18px;
+}
+
+.project-card__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.project-card__link-button {
+  border-radius: 5px;
+  padding: 3px 5px;
+  width: 60px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.project-card__link-button:link {
+  color: white;
+  text-decoration: none;
+}
+
+.project-card__link-button:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.project-card__link-button:hover {
+  opacity: 70%;
+}
