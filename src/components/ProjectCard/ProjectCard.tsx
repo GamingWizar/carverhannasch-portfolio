@@ -20,7 +20,7 @@ export default function ProjectCard({
             href={liveLink}
             target="_blank"
           >
-            Live
+            Live Demo
           </a>
           <a
             className="project-card__link-button"

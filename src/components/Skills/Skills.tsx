@@ -19,7 +19,7 @@ export default function Skills() {
 
           <SkillCard
             title="Tools"
-            skillList={["Git", "GitHub", "Google Cloud", "NginX"]}
+            skillList={["Vite", "Git", "GitHub", "Google Cloud", "NginX"]}
           />
         </div>
       </div>
