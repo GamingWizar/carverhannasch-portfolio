@@ -6,7 +6,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 export default function Projects() {
   return (
     <div className="page__section">
-      <div className="page__section-content projects">
+      <div className="page__section-content projects" id="projects">
         <h2 className="projects__title">Featured Projects</h2>
         <div className="projects__project-grid">
           <ProjectCard

@@ -13,10 +13,24 @@ export default function Hero() {
             in HTML, JavaScript, and React.
           </p>
           <div className="hero__button-wrapper">
-            <button className="hero__button">Projects</button>
+            <a className="hero__button" href="#projects">
+              Projects
+            </a>
             <button className="hero__button">Resume</button>
-            <button className="hero__button">GitHub</button>
-            <button className="hero__button">Linkedin</button>
+            <a
+              className="hero__button"
+              href="https://github.com/GamingWizar"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              className="hero__button"
+              href="https://www.linkedin.com/in/carver-hannasch/"
+              target="_blank"
+            >
+              Linkedin
+            </a>
           </div>
         </div>
         <div className="hero__section">

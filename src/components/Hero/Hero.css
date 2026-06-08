@@ -59,6 +59,17 @@
   );
   color: white;
   transition: opacity 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__button:link {
+  text-decoration: none;
+}
+
+.hero__button:visited {
+  text-decoration: none;
 }
 
 .hero__button:hover {
