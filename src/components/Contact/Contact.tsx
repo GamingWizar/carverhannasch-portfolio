@@ -2,6 +2,8 @@ import "./Contact.css";
 import emailImg from "../../assets/email.png";
 import githubImg from "../../assets/github.png";
 import linkedinImg from "../../assets/linkedin.png";
+import pdfImg from "../../assets/pdf.png";
+import resume from "../../docs/resume.pdf";
 
 export default function Contact() {
   return (
@@ -25,7 +27,7 @@ export default function Contact() {
             <img
               className="contact__link-img"
               src={linkedinImg}
-              alt="email icon"
+              alt="linkedin logo"
             />
             https://www.linkedin.com/in/carver-hannasch/
           </a>
@@ -37,9 +39,17 @@ export default function Contact() {
             <img
               className="contact__link-img"
               src={githubImg}
-              alt="email icon"
+              alt="github logo"
             />
             https://github.com/GamingWizar
+          </a>
+          <a
+            className="contact__link contact__resume"
+            href={resume}
+            download="Carver Hannasch Resume"
+          >
+            <img className="contact__link-img" src={pdfImg} alt="pdf icon" />
+            Resume
           </a>
         </div>
       </div>

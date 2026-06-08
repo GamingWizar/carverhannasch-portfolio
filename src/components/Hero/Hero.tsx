@@ -1,5 +1,6 @@
 import "./Hero.css";
 import carverimg from "../../assets/carver.png";
+import resume from "../../docs/resume.pdf";
 
 export default function Hero() {
   return (
@@ -16,7 +17,13 @@ export default function Hero() {
             <a className="hero__button" href="#projects">
               Projects
             </a>
-            <button className="hero__button">Resume</button>
+            <a
+              className="hero__button"
+              href={resume}
+              download="Carver Hannasch Resume"
+            >
+              Resume
+            </a>
             <a
               className="hero__button"
               href="https://github.com/GamingWizar"
