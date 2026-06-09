@@ -114,6 +114,9 @@
     height: 30px;
     font-size: 15px;
   }
+  .hero__button:hover {
+    opacity: 100%;
+  }
 }
 
 @media (max-width: 480px) {
