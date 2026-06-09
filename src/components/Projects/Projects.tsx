@@ -13,7 +13,7 @@ export default function Projects() {
             title="What to Wear"
             description="Dynamic website that uses a 3rd party API to gather weather data and reccomend clothing. Features both a front end and a back end containing clothing items that users can add to by making an account."
             img={wtwr}
-            liveLink=""
+            liveLink="https://wtwr.carverhannasch.com"
             gitHubLink="https://github.com/GamingWizar/se_project_react"
           ></ProjectCard>
           <ProjectCard
