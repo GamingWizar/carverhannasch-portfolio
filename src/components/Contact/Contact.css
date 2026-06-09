@@ -56,3 +56,12 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 480px) {
+  .contact__link {
+    font-size: 15px;
+  }
+  .contact__text {
+    font-size: 15px;
+  }
+}

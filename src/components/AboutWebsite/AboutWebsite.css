@@ -38,3 +38,19 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
+
+@media (max-width: 800px) {
+  .about-website {
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .about-website__text {
+    max-width: 300px;
+  }
+}

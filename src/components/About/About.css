@@ -39,3 +39,30 @@
   margin-top: 5px;
   opacity: 60%;
 }
+
+@media (max-width: 1300px) {
+  .about {
+    gap: 0;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about__img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .about__text {
+    max-width: 300px;
+  }
+}

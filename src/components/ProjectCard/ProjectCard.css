@@ -61,3 +61,36 @@
 .project-card__link-button:hover {
   opacity: 70%;
 }
+
+@media (max-width: 850px) {
+  .project-card {
+    width: 600px;
+    text-align: center;
+  }
+
+  .project-card__img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    width: 400px;
+  }
+
+  .project-card__img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-card {
+    width: 300px;
+  }
+  .project-card__img {
+    width: 290px;
+  }
+  .project-card__description {
+    font-size: 15px;
+  }
+}

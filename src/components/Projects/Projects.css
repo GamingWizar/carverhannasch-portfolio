@@ -16,3 +16,11 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
 }
+
+@media (max-width: 1600px) {
+  .projects__project-grid {
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 30px;
+  }
+}
