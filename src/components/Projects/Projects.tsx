@@ -1,5 +1,6 @@
 import "./Projects.css";
 import wtwr from "../../assets/wtwr.png";
+import news from "../../assets/news.png";
 
 import ProjectCard from "../ProjectCard/ProjectCard";
 
@@ -18,9 +19,9 @@ export default function Projects() {
           ></ProjectCard>
           <ProjectCard
             title="News Explorer"
-            description="What's the news"
-            img
-            liveLink=""
+            description="Dynamic and user oriented front end web application designed with ability to add working back end. Uses 3rd party API to allow users to search for real news articles using keywords."
+            img={news}
+            liveLink="https://news.carverhannasch.com"
             gitHubLink=""
           ></ProjectCard>
         </div>
